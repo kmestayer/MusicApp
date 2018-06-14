@@ -1,0 +1,20 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Music Library</string>
+
+    <!-- Song one -->
+    <string name="song_one">Imagine Dragons - Believer</string>
+
+    <!-- Song two -->
+    <string name="song_two">Imagine Dragons - Radioactive</string>
+
+    <!-- Song three -->
+    <string name="song_three">Imagine Dragons - Thunder</string>
+
+    <!-- song four -->
+    <string name="song_four">Imagine Dragons - Whatever It Takes</string>
+
+    <!--Title for Now Playing screen-->
+    <string name="now_playing">Now Playing</string>
+
+</resources>

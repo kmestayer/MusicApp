@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <TextView
+        android:id="@+id/song1"
+        style="@style/SongStyle"
+        android:background="@color/odd_song"
+        android:text="@string/song_one" />
+
+    <TextView
+        android:id="@+id/song2"
+        style="@style/SongStyle"
+        android:background="@color/even_song"
+        android:text="@string/song_two" />
+
+    <TextView
+        android:id="@+id/song3"
+        style="@style/SongStyle"
+        android:background="@color/odd_song"
+        android:text="@string/song_three" />
+
+    <TextView
+        android:id="@+id/song4"
+        style="@style/SongStyle"
+        android:background="@color/even_song"
+        android:text="@string/song_four" />
+
+</LinearLayout>
