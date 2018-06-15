@@ -7,12 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.example.android.musicalstructureapp.R;
 import java.util.ArrayList;
 
 /*
- * {@link WordAdapter} is an {@link ArrayAdapter} that can provide the layout for each list
- * based on a data source, which is a list of {@link Word} objects.
+ * {@link SongAdapter} is an {@link ArrayAdapter} that can provide the layout for each list
+ * based on a data source, which is a list of {@link Song} objects.
  * */
 public class SongAdapter extends ArrayAdapter<Song> {
 
@@ -24,14 +23,14 @@ public class SongAdapter extends ArrayAdapter<Song> {
      * to populate into the lists.
      *
      * @param context The current context. Used to inflate the layout file.
-     * @param words A List of miwok word objects to display in a list
+     * @param songs A List of songs objects to display in a list
      */
-    public SongAdapter(Activity context, ArrayList<Song> words) {
+    public SongAdapter(Activity context, ArrayList<Song> songs) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
         // going to use this second argument, so it can be any value. Here, we used 0.
-        super(context, 0, words);
+        super(context, 0, songs);
     }
 
     /**

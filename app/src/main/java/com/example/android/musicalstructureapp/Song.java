@@ -1,23 +1,21 @@
 package com.example.android.musicalstructureapp;
 
 /**
- * {@link Song} represents a vocabulary word that the user wants to learn.
- * It contains a default translation and a Miwok translation for that word.
+ * {@link Song} represents a song the user has in the Music Library.
  */
 public class Song {
 
-    /** Default translation for the word */
+    /** Song name */
     private String mSongName;
 
-    /** Miwok translation for the word */
+    /** Band name */
     private String mBandName;
 
     /**
-     * Create a new Word object.
+     * Create a new Song object.
      *
-     * @param songName is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param bandName is the word in the Miwok language
+     * @param songName is the song name
+     * @param bandName is the band name
      */
     public Song(String songName, String bandName) {
         mSongName = songName;
@@ -25,14 +23,14 @@ public class Song {
     }
 
     /**
-     * Get the default translation of the word.
+     * Get the song name.
      */
     public String getSongName() {
         return mSongName;
     }
 
     /**
-     * Get the Miwok translation of the word.
+     * Get the band name.
      */
     public String getBandName() {
         return mBandName;
